@@ -60,7 +60,7 @@ export default function CareerTracks() {
                     </div>
 
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-                        <p className="max-w-xs text-xs leading-relaxed text-white/50">
+                        <p className="max-w-xs text-xs leading-relaxed text-white/80">
                             Different problems. Different perspectives. Choose the path that matches your goals.
                         </p>
 
