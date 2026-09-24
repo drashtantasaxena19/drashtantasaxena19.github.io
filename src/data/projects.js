@@ -21,7 +21,7 @@ export const projects = [
             "AI-powered intelligence and job aggregation engine engineered with automated data processing, candidate scoring, and synchronization workflows.",
 
         video: "/assets/videos/projects/xyvanta-preview.mp4",
-        image: "/assets/images/projects/xyvanta/thumbnail.jpg",
+        image: "/assets/images/projects/xyvanta/thumbnail.png",
 
         images: [
             "/assets/images/projects/xyvanta/xyvanta-1.png",
@@ -83,7 +83,7 @@ export const projects = [
             "End-to-end fraud classification system combining machine learning, transaction analysis, and an interactive web-based prediction dashboard.",
 
         video: "/assets/videos/projects/fraud-preview.mp4",
-        image: "/assets/images/projects/fraud-detection/thumbnail.jpg",
+        image: "/assets/images/projects/fraud-detection/thumbnail.png",
 
         images: [
             "/assets/images/projects/fraud-detection/CCFD-1.png",
@@ -137,7 +137,7 @@ export const projects = [
             "Power BI dashboard for transaction monitoring, fraud analysis, transaction volume, fraud amount, and hourly fraud patterns.",
 
         video: "/assets/videos/projects/fraud-dashboard-preview.mp4",
-        image: "/assets/images/projects/fraud-detection/thumbnail.jpg",
+        image: "/assets/images/projects/fraud-detection/thumbnail.png",
 
         images: [
             "/assets/images/projects/fraud-dashboard/fraud-dashboard-1.png",
@@ -192,7 +192,7 @@ export const projects = [
             "AI-driven academic evaluation and analytics platform designed to analyze faculty performance data and generate structured insights.",
 
         video: "/assets/videos/projects/faculty-preview.mp4",
-        image: "/assets/images/projects/faculty-analytics/thumbnail.jpg",
+        image: "/assets/images/projects/faculty-analytics/thumbnail.png",
 
         images: [
             "/assets/images/projects/faculty-analytics/FPS-1.png",
@@ -246,7 +246,7 @@ export const projects = [
             "Interactive Power BI sales analytics dashboard designed to explore business performance, sales trends, KPIs, and actionable insights.",
 
         video: "/assets/videos/projects/sales-dashboard-preview.mp4",
-        image: "/assets/images/projects/sales-analysis-dashboard/thumbnail.jpg",
+        image: "/assets/images/projects/sales-analysis-dashboard/thumbnail.png",
 
         images: [
             "/assets/images/projects/sales-analysis-dashboard/Sales-1.png",
@@ -298,7 +298,7 @@ export const projects = [
             "Interactive Power BI dashboard focused on retail sales analysis, outlet performance, product-level trends, and business KPIs.",
 
         video: "/assets/videos/projects/blinkit-dashboard-preview.mp4",
-        image: "/assets/images/projects/blinkit-dashboard/thumbnail.jpg",
+        image: "/assets/images/projects/blinkit-dashboard/thumbnail.png",
 
         images: [
             "/assets/images/projects/blinkit-dashboard/blinkit-1.png",
