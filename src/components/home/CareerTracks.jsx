@@ -64,13 +64,13 @@ export default function CareerTracks() {
                             Different problems. Different perspectives. Choose the path that matches your goals.
                         </p>
 
-                        <Link
-                            to="/data-analyst"
+                        {/* <Link
+                            to="/"
                             className="flex items-center gap-1.5 rounded-xl border border-white/10 bg-white/[0.03] px-4 py-2.5 text-xs font-medium text-white/80 transition-all hover:border-white/20 hover:text-white"
                         >
                             View All
                             <ArrowRight size={13} />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
 
