@@ -130,7 +130,7 @@ export default function Hero() {
                     }}
                 />
 
-                {/* ONLY MOBILE - NEW MOBILE BACKGROUND */}
+                {/* ONLY MOBILE - MOBILE BACKGROUND */}
                 <div
                     className="absolute inset-0 block bg-no-repeat sm:hidden"
                     style={{
@@ -144,8 +144,8 @@ export default function Hero() {
 
             <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,#03060d_0%,rgba(3,6,13,0.97)_25%,rgba(3,6,13,0.82)_48%,rgba(3,6,13,0.42)_72%,rgba(3,6,13,0.62)_100%)] lg:bg-[linear-gradient(90deg,#03060d_0%,rgba(3,6,13,0.96)_24%,rgba(3,6,13,0.68)_43%,rgba(3,6,13,0.12)_67%,rgba(3,6,13,0.48)_100%)]" />
 
-            {/* Mobile-only readability overlay */}
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[#03060d]/35 via-transparent to-[#03060d]/55 sm:hidden" />
+            {/* Solid Dark Overlay for Mobile Readability & Contrast */}
+            <div className="pointer-events-none absolute inset-0 bg-[#03060d]/85 sm:hidden" />
 
             <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#03060d]/75 to-transparent" />
 
@@ -432,6 +432,7 @@ export default function Hero() {
 
                 <div className="relative hidden lg:block" />
 
+                {/* LAPTOP / DESKTOP SKILLS & QUOTE CARDS (100% Unchanged) */}
                 <div className="relative hidden h-full flex-col justify-center lg:flex lg:pl-1">
                     <div className="flex flex-col gap-3">
                         {skills.map((skill, index) => (
