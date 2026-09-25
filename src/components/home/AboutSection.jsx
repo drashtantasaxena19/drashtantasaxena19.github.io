@@ -47,7 +47,7 @@ export default function AboutSection() {
     return (
         <section
             id="about"
-            className="relative overflow-hidden border-t border-white/[0.05] bg-[#03060d] px-5 py-14 sm:px-8 sm:py-16 lg:px-10 lg:py-20"
+            className="relative overflow-hidden border-t border-white/[0.05] bg-[#03060d] px-5 py-9 sm:px-10 sm:py-8 lg:px-10 lg:py-12"
         >
             {/* Background Atmosphere */}
             <div className="pointer-events-none absolute left-1/4 top-10 h-80 w-80 rounded-full bg-violet-600/[0.05] blur-[140px]" />

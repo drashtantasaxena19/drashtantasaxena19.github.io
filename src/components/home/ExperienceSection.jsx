@@ -20,7 +20,7 @@ export default function ExperienceSection() {
     return (
         <section
             id="experience"
-            className="relative overflow-hidden border-t border-white/[0.05] bg-[#03060d] px-5 py-12 sm:px-8 lg:px-10 lg:py-14"
+            className="relative overflow-hidden border-t border-white/[0.05] bg-[#03060d] px-5 py-10 sm:px-8 lg:px-10 lg:py-12"
         >
             {/* Ambient Background Lighting */}
             <div className="pointer-events-none absolute left-1/4 top-1/4 h-[550px] w-[550px] -translate-x-1/2 rounded-full bg-violet-600/[0.07] blur-[170px]" />

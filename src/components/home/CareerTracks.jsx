@@ -45,7 +45,7 @@ export default function CareerTracks() {
     return (
         <section
             id="career-tracks"
-            className="relative border-t border-white/[0.04] bg-[#03060d] px-5 py-12 sm:px-8 lg:px-10"
+            className="relative border-t border-white/[0.04] bg-[#03060d] px-5 py-10 sm:px-8 lg:px-10"
         >
             <div className="relative mx-auto max-w-[1420px]">
                 <div className="mb-12 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">

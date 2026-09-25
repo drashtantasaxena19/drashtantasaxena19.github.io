@@ -32,7 +32,7 @@ export default function FreelanceSection() {
     return (
         <section
             id="freelance"
-            className="relative overflow-hidden border-t border-white/[0.05] bg-[#03060d] px-5 py-20 sm:px-8 lg:px-10"
+            className="relative overflow-hidden border-t border-white/[0.05] bg-[#03060d] px-5 py-12 sm:px-8 lg:px-10"
         >
             {/* Ambient background glows */}
             <div className="pointer-events-none absolute -left-32 top-20 h-96 w-96 rounded-full bg-violet-600/[0.055] blur-[130px]" />
