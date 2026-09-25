@@ -107,7 +107,7 @@ export default function Hero() {
     return (
         <section
             id="home"
-            className="relative isolate mt-20 min-h-[calc(100svh-80px)] overflow-hidden bg-[#03060d] py-10 sm:py-16 lg:h-[calc(100svh-80px)] lg:min-h-[680px] lg:py-0"
+            className="relative isolate mt-20 min-h-auto overflow-hidden bg-[#03060d] py-10 sm:py-16 lg:h-[calc(100svh-80px)] lg:min-h-[680px] lg:py-0"
         >
             <motion.div
                 initial={
@@ -144,9 +144,6 @@ export default function Hero() {
 
             <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,#03060d_0%,rgba(3,6,13,0.97)_25%,rgba(3,6,13,0.82)_48%,rgba(3,6,13,0.42)_72%,rgba(3,6,13,0.62)_100%)] lg:bg-[linear-gradient(90deg,#03060d_0%,rgba(3,6,13,0.96)_24%,rgba(3,6,13,0.68)_43%,rgba(3,6,13,0.12)_67%,rgba(3,6,13,0.48)_100%)]" />
 
-            {/* Solid Dark Overlay for Mobile Readability & Contrast */}
-            <div className="pointer-events-none absolute inset-0 bg-[#03060d]/85 sm:hidden" />
-
             <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#03060d]/75 to-transparent" />
 
             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#03060d] to-transparent" />
@@ -156,9 +153,9 @@ export default function Hero() {
                     reduceMotion
                         ? undefined
                         : {
-                              x: [0, 18, -12, 0],
-                              y: [0, -10, 8, 0],
-                          }
+                            x: [0, 18, -12, 0],
+                            y: [0, -10, 8, 0],
+                        }
                 }
                 transition={{
                     duration: 15,
@@ -169,7 +166,7 @@ export default function Hero() {
             />
 
             <div className="relative z-10 mx-auto grid h-full w-full max-w-[1420px] grid-cols-1 px-5 sm:px-8 lg:grid-cols-[44%_35%_21%] lg:px-8 xl:px-10">
-                <div className="flex min-w-0 flex-col justify-center lg:pr-5">
+                <div className="flex min-w-0 flex-col justify-center py-6 lg:pr-5 lg:py-0">
                     <motion.div
                         initial={{ opacity: 0, y: 15 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -228,10 +225,10 @@ export default function Hero() {
                                     reduceMotion
                                         ? false
                                         : {
-                                              opacity: 0,
-                                              y: 13,
-                                              filter: "blur(3px)",
-                                          }
+                                            opacity: 0,
+                                            y: 13,
+                                            filter: "blur(3px)",
+                                        }
                                 }
                                 animate={{
                                     opacity: 1,
@@ -242,10 +239,10 @@ export default function Hero() {
                                     reduceMotion
                                         ? undefined
                                         : {
-                                              opacity: 0,
-                                              y: -13,
-                                              filter: "blur(3px)",
-                                          }
+                                            opacity: 0,
+                                            y: -13,
+                                            filter: "blur(3px)",
+                                        }
                                 }
                                 transition={{
                                     duration: 0.34,
@@ -432,7 +429,6 @@ export default function Hero() {
 
                 <div className="relative hidden lg:block" />
 
-                {/* LAPTOP / DESKTOP SKILLS & QUOTE CARDS (100% Unchanged) */}
                 <div className="relative hidden h-full flex-col justify-center lg:flex lg:pl-1">
                     <div className="flex flex-col gap-3">
                         {skills.map((skill, index) => (
@@ -459,12 +455,12 @@ export default function Hero() {
                                         reduceMotion
                                             ? undefined
                                             : {
-                                                  y: [
-                                                      0,
-                                                      -4,
-                                                      0,
-                                                  ],
-                                              }
+                                                y: [
+                                                    0,
+                                                    -4,
+                                                    0,
+                                                ],
+                                            }
                                     }
                                     transition={{
                                         duration:
